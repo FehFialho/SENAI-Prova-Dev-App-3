@@ -43,7 +43,7 @@ export default function Index() {
         
         <Image style={[styles.image]} source={require('../assets/images/study.jpg')} />
 
-        <Text style={styles.timer}>{time}</Text>
+        <Text style={styles.timer}>1:25:02</Text>
         
         <View  style={styles.audio}></View>
 
