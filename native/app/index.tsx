@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
+
+    const [time, setTime] = useState();
 
   return (
 
